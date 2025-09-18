@@ -15,7 +15,7 @@
 | General/Behavioral | 38 |
 
 ### Kubernetes (161)
-- )Kubernetes architecture
+- Kubernetes architecture
 - How do you use Azure Key vault's secrets in AKS?
 - How do you secure your AKS cluster?
 - How do you make your AKS cluster highly available
@@ -536,7 +536,7 @@
 - Any known issues u encountered any pipeline is integrated/ any production code is ur pushing or production any known issue and tell which is critical and how u got resolved
 - you want to store the secrets in Jenkins pipeline , how will you do it
 - How do you implement rollback in an automated deployment pipeline?
-- )WHAT TYPE OF PIPELINE YOU WORKED ON
+- WHAT TYPE OF PIPELINE YOU WORKED ON
 - All the questions are scenario-based and counter questions. - I have remembered these question , all the counter questions into CICD related and Kubernets
 - Can you explain what CI/CD is and describe how you have implemented CI/CD pipelines in one of your projects?
 - How does an AWS CodePipeline differ from a Jenkins pipeline? Can you give an example of when you would choose one over the other?
