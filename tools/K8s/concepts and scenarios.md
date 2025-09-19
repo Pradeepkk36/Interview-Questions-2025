@@ -1,12 +1,12 @@
-###kubernetes interview questions with advanced concepts and scenarios
+# kubernetes interview questions with advanced concepts and scenarios #
 
-Basic Level
+# Basic Level
 - Explain the control plane components and their functionalities, and how they interact with each other.
 - Explain how the kube-proxy component works on the node.
 - Explain the CNI and CRI interfaces.
 - How to troubleshoot etcd iss
 
-Intermediate Level
+# Intermediate Level
 - Explain the core components and benefits of a service mesh like Istio or Linkerd.
 - Describe how traffic management (e.g., canary deployments, A/B testing)  is implemented using a service mesh.
 - Discuss the security implications and best practices for implementing mutual TLS (mTLS)  in a service mesh.
@@ -17,12 +17,12 @@ Intermediate Level
 - Explain how to implement and troubleshoot egress network policies.
 - Explain the differences between PersistentVolumes (PVs), PersistentVolumeClaims (PVCs), and StorageClasses.
 
-Advanced Level 
+# Advance Level 
 - Describe how you would implement dynamic provisioning of persistent storage for stateful applications.
 - Discuss the challenges of managing stateful applications in Kubernetes and how you would ensure data consistency and availability.
 - How to take and restore a snapshot of a persistent volume?
 
-K8s Best Practices(Security):
+# K8s Best Practices(Security):
 - Describe how you would implement role-based access control (RBAC) to restrict access to Kubernetes resources.
 - Discuss the importance of container image security and how you would implement image scanning and vulnerability management.
 - Explain how you would implement secrets management using Kubernetes Secrets or an external secrets management solution (e.g., HashiCorp Vault).
