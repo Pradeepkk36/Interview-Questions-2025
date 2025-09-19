@@ -1,7 +1,7 @@
 ## Summary Table (Questions per Topic)
 | Topic | Count |
 |-------|-------|
-| Kubernetes | 161 |
+| Kubernetes | 155 |
 | Terraform | 122 |
 | Docker | 107 |
 | Git | 59 |
@@ -14,8 +14,8 @@
 | Python & Coding | 39 |
 | General/Behavioral | 38 |
 
-### Kubernetes (161)
-- Kubernetes architecture
+### Kubernetes (155)
+- K8s & K8s Architecture/explain k8 archtiecure/Kubernetes architecture
 - How do you use Azure Key vault's secrets in AKS?
 - How do you secure your AKS cluster?
 - How do you make your AKS cluster highly available
@@ -76,7 +76,6 @@
 - What's the purpose of using storage class in k8s
 - How configmap and secrets can be used in k8s
 - Why k8s is need if docker volume is there? (Dont remember exact Q framing but sounded like this)
-- K8s architecture
 - CoreDNS in k8s
 - Purpose of scheduler in k8s
 - How will you know if a network policy is enabled or not in k8s
@@ -94,7 +93,6 @@
 - architecture of Kubernetes
 - how would you maintain high availability in ecs + fargate or eks
 - what are all the deployment startgies you use in deployments in k8s , explain canary and blue green strategies
-- explain k8 archtiecure
 - how to get static ip of k8 how to manage
 - How you are managing secrets in kubernetes
 - what are the commands do you know in k8s ?
@@ -103,11 +101,8 @@
 - K8s architecture, services, if application pod fails how to troubleshoot
 - What is the primary difference between ECS and EKS?
 - How do you ensure high availability in Kubernetes?
-- K8s architecture
 - What are the parameters are used for HPA in K8s?
 - How will take a backup of K8s clusters regularly
-- K8s
-- K8s Architecture
 - How do you upgrage k8s cluster
 - How do you give access to the user for a namespace in kubernetes cluster
 - What are the kubernetes resources you know
@@ -130,7 +125,6 @@
 - Diff b/w Fargate vs EKS worker nodes
 - Updating EKS cluster
 - When deploying your application to Amazon EKS, what other services do you use along with it?
-- Kubernetes
 - I have an apache tomcat application running in k8 cluster, what are the manifests files you will be having inside in it
 - i have an local laptop, I want to access my hosted website, what service will be used in K8s
 - how do you rotate the secrets in key vault and implement .pfx certificate in application gateway , along with ingress/controller in AKS
@@ -175,6 +169,7 @@
 - What would you recommend: NodePort Service or LoadBalancer Service in Kubernetes and why?
 - What is the difference between Liveness and Readiness Probes in Kubernetes ?
 - In Kubernetes, how would you configure your deployment to double CPU allocation once usage crosses 70%?
+- What is blue green deployment explain a project based on it
 
 ### Terraform (122)
 - Terraform provisioners
@@ -959,12 +954,7 @@
 - how frequently do we deploy to production in your current project
 - Current Company project related questions
 - How do you receive alerts in your project and how is it setup
-- interview experience happened yesterday (08-02-2025)
 - So how are you managing the conflict? State file conflicts
-- Experience - 8 years's
-- What is blue green deployment explain a project based on it
-- Exp- 6+ yrs overall experience (considering 3 yrs in devops)
-- Exp-: 10.5 years work ex. Devops. 4 -5 years of devops experience
 - What things have you worked and your experience in brief?
 - explain did u done any automation in your project
 - Describe a scenario where you had to introduce a new DevOps tool or practice. How did you get team buy-in?,
@@ -972,7 +962,6 @@
 - Can you share an experience where your automation strategy failed or caused problems? What was your corrective action?,
 - How do you mentor or support junior DevOps engineers in your team while ensuring timely project delivery?,
 - Tell me about a successful DevOps transformation project you were part of. What was your role, and how did you drive change?
-- Experience
 - Explain the project you are currently working on
 - What types of Spring Boot starters have you used in the project?
 - How do you implement blue-green deployment in your project?
